@@ -40,25 +40,28 @@ body{
     display: flex;
     align-items: center;
     margin-right: 31px;
-}
-.img_vector_address{
-    margin-right: 11px;
-}
-.address > p{
+    text-decoration: none;
     font-family: 'Montserrat';
     font-style: normal;
     font-size: 22px;
     color: #536779;
-
+}
+.img_vector_address{
+    margin-right: 11px;
 }
 .tel{
     width: 263px;
     height: 40px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-size: 22px;
+    color: #536779;
+    text-decoration: none;
     display: flex;
-    align-items: center;
     margin-right: 25px;
+    align-items: center;
 }
-.square{
+.square_tel{
     width: 40px;
     height: 40px;
     border-radius: 5px;
@@ -66,13 +69,9 @@ body{
     margin-right: 12px;
 }
 .img_tel {
-    margin: 10px 12px;
-}
-.tel > p{
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-size: 22px;
-    color: #536779;
+    background:#D3DDE6;
+    padding: 10px 12px;
+    margin-right: 12px;
 }
 .button{
     width: 275px;
