@@ -11,7 +11,6 @@ body{
     /* height: 1101px; */
     margin: auto;
 }
-
 .container{
     height: 216px;
     padding-top: 28px;
@@ -21,18 +20,11 @@ body{
     display: flex;
     align-items: center;
 }
-.container_botom{
-    height: 108px;
-    display: flex;
-}
-
 .img_logo{
     margin-right: 7px;
-    /* color: #264158; */
 }
 .img_shenko{
     margin-right: 286px;
-    /* color: #264158; */
 }
 .address{
     width: 286px;
@@ -80,7 +72,7 @@ body{
     border-radius: 150px;
     display: flex;
 }
-.button > p{
+.button > button{
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 700;
@@ -88,5 +80,26 @@ body{
     text-transform: uppercase;
     color: #fff;
     margin: auto;
+    background-color: #98C5EB;
+    border: none;
+}
+.container_botom{
+    height: 108px;
+    display: flex;
+    justify-content: space-between;
     align-items: center;
+}
+.container_botom > a{
+    text-decoration: none;
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: 22px;
+    color: #264158;
+}
+.payment{
+    display: flex;
+    align-items: center;
+}
+.payment > img{
+    padding-left: 15px;
 }
