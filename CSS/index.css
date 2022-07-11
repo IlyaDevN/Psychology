@@ -161,7 +161,7 @@ body{
     font-size: 60px;
     text-transform: uppercase;
     margin: 0;
-    padding-top: 41px;
+    padding-top: 35px;
 }
 .melani{
     color: #F79781;
@@ -171,7 +171,6 @@ body{
     font-size: 60px;
     text-transform: uppercase;
     margin: 0;
-    padding-top: 25px;
 }
 .img_shenkopsychologist{
     display: flex;
@@ -179,7 +178,7 @@ body{
 }
 .psychologist{
     display: flex;
-    padding-top: 74px;
+    padding-top: 65px;
 }
 .line{
     border-bottom: 3px solid #D3DDE6;
@@ -258,4 +257,67 @@ body{
     position: relative;
     left: 550px;
     top: -14px;
+}
+.when_ask_us > h2{
+    font-family: "Cormorant";
+    font-weight: 700;
+    font-size: 60px;
+    color: #264158;
+    text-transform: uppercase;
+    padding: 237px 0 80px 0;
+    margin: 0;
+}
+#h3{
+    font-family: "Montserrat";
+    font-weight: 700;
+    font-size: 30px;
+    color: #536779;
+    text-transform: uppercase;
+    padding: 0;
+    margin: 0;
+}
+#p{
+    font-family: "Montserrat";
+    font-weight: 400;
+    font-size: 22px;
+    color: #536779;
+    width: 526px;
+    padding: 0;
+    margin: 0;
+}
+.disquiet_1{
+    display: flex;
+}
+.case_1{
+    display: flex;
+    flex-direction: column;
+    margin-left: 200px;
+}
+.case_1 > #h3{
+    padding: 60px 0 50px 0;
+}
+.div_line_p{
+    display: flex;
+}
+.line_3{
+    border-bottom: 3px solid #D3DDE6;
+    width: 45px;
+    margin: 0 5px 120px 5px;
+}
+.case_1{
+    display: flex;
+    flex-direction: column;
+    margin-left: 200px;
+}
+.disquiet_2{
+    display: flex;
+}
+.case_2{
+    display: flex;
+    flex-direction: column;
+    margin-left: 245px;
+    margin-right: 232px;
+}
+.case_2 > #h3{
+    padding: 60px 0 50px 0;
 }
