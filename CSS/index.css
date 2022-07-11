@@ -10,7 +10,7 @@ body{
     border: 1px solid #D3DDE6;
     background: #D3DDE6;
     width: 1920px;
-    top: 244px;
+    top: 240.5px;
     z-index: -1;
 }
 .container_main{
@@ -27,10 +27,7 @@ body{
     display: flex;
     align-items: center;
 }
-.img_logo{
-    margin-right: 7px;
-}
-.img_shenko{
+.logo_full{
     margin-right: 286px;
 }
 .address{
@@ -73,21 +70,23 @@ body{
     margin-right: 12px;
 }
 .button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
     width: 275px;
     height: 79px;
     background: #98C5EB;
     border-radius: 150px;
-    display: flex;
-}
-.button > button{
     font-family: 'Montserrat';
     font-weight: 700;
     font-size: 18px;
     text-transform: uppercase;
     color: #fff;
     margin: auto;
-    background-color: #98C5EB;
     border: none;
+}
+.button:active{
+    background-image: radial-gradient(#536779, #D3DDE6);
 }
 .nav{
     height: 108px;
@@ -102,29 +101,38 @@ body{
     font-weight: 400;
     font-size: 22px;
     color: #264158;
-    padding: 44.5px 0;
-    
+    padding-top: 38px;
 }
-.nav > a:hover{
-    border-bottom: 6px solid #F79781;
-    padding-bottom: 38.5px;
+.nav > a > div{
+    margin-top: 38px;
+    border: 3px solid rgba(0,0,0,0.0);
 }
-.nav > .payment{
+.nav > a:hover div{
+    border: 3px solid #F79781;
+    border-radius: 3px;
+    background:#F79781;
+}
+.payment > a{
     display: flex;
     align-items: center;
-    padding: 39.5px 0;
+    text-decoration: none;
+    font-family: 'Montserrat';
     font-weight: 700;
+    font-size: 22px;
+    color: #264158;
+    padding-top: 33px;
 }
-.nav > .payment:hover{
-    border-bottom: 6px solid #F79781;
-    padding-bottom: 33.5px;
-}
-.payment > img{
+.payment > a > img{
     padding-left: 15px;
 }
-.payment:hover{
-    border-bottom: 2px solid #F79781;
-    padding-bottom: 39.5px;
+.payment > div{
+    margin-top: 33px;
+    border: 3px solid rgba(0,0,0,0.0);
+}
+.payment:hover div{
+    border: 3px solid #F79781;
+    border-radius: 3px;
+    background:#F79781;
 }
 .enroll{
     display: flex;
